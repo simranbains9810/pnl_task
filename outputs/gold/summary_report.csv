@@ -1,0 +1,5 @@
+Metric,Location
+VaR_95_Per_Trade,Documents/dev/pnl_task/data/silver/var_95_trade.csv
+var_975_trade,Documents/dev/pnl_task/data/silver/var_975_trade.csv
+var_95_all_trade,Documents/dev/pnl_task/data/silver/var_95_all_trade.csv
+var_99_book,Documents/dev/pnl_task/data/silver/var_99_book.csv
