@@ -1,4 +1,4 @@
-# Profit and Loss Pipeline 
+# 📈 Profit and Loss Pipeline 📉
 This project presents a pipeline that takes PnL data and processes, cleans, and calculates Value at Risk (VaR) using the historical method at different confidence levels. The results are stored following a Medallion Architecture (Bronze, Silver and Gold) to logically organise data into a lakehouse, with the goal of improving structure and quality of data as it flows through each layer of the architecture. 
 
 ![Alt text](https://lh5.googleusercontent.com/proxy/yltwNDMMXGvhUPvZKsBspX8xR5X6bQR9HdqS_IU2GGNyFm2G8L8VKucLoj4PveCfZVU0qYqNjz7Xpfxhisi2T55E27gOGf2hECTZAHpKsUC3MVdLN9yPVhkCf2-osC52q8PvPjAbR2LIQWVPC2ZTvPRXVRFRIvB6DlYYjOeSfWSMbDZbM4qi53p4GGNDusU)
@@ -34,5 +34,5 @@ The pipeline follows the standard ETL approach which ingests, cleans, transforms
     b. 97.5% Confidence Level (Per Trade): A stricter threshold than 95%, showing higher potential losses in extreme cases.
 
     c. 99% Confidence Level (Per Book): Aggregates risk at the book level, helping to identify which books carry the highest volatility.
-    
+
     d. 95% Confidence Level (Across All Trades): Reflects overall portfolio exposure. A high negative value indicates significant risk across trades, whereas a smaller value suggests diversification benefits.
