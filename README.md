@@ -15,7 +15,7 @@ The code is written using Python 3.12 and requires the following packages and to
 - `os`
 - `google.colab.files`
 
-## Approach
+## Approach 
 The pipeline follows the standard ETL approach which ingests, cleans, transforms and analyses the PnL data. 
 1. Data Ingestion: PnL data is loaded from the CSV.
 2. Parsing, Cleaning & Transformations: The dataset is cleaned by handling missing values, renaming and standardising columns, and adding data processing timestamps.
