@@ -28,7 +28,11 @@ The pipeline follows the standard ETL approach which ingests, cleans, transforms
 3. The historical simulation approach has been used, which relies a lot on historical data of the returns for which the VaR is being calculated. It is founf to provide superior unconditional coverage among a wide variety of alternate methods ranging from the simple variance covariance approach to the sophisticated GARCH. The VaR calculations treat trades independently without considering interdependencies between books or trades. 
 4. The computed values under VaR reflect percentiles from historical data without assuming normality.
 5. Various confidence levels were used to assess VaR. Interpretations could imply:
+
     a. 95% Confidence Level (Per Trade): Indicates expected loss per trade under normal conditions. Some trades show significant losses, while others remain unaffected.
+
     b. 97.5% Confidence Level (Per Trade): A stricter threshold than 95%, showing higher potential losses in extreme cases.
+
     c. 99% Confidence Level (Per Book): Aggregates risk at the book level, helping to identify which books carry the highest volatility.
+    
     d. 95% Confidence Level (Across All Trades): Reflects overall portfolio exposure. A high negative value indicates significant risk across trades, whereas a smaller value suggests diversification benefits.
